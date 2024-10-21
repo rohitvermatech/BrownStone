@@ -1,0 +1,2706 @@
+{
+    "ANONYMOUS": {
+        "text": "No problem. Lovely to meet you. What's happening with you and how can we help?",
+        "buttons": [
+            {
+                "payload": "DISCRIMINATION",
+                "title": "Discrimination"
+            },
+            {
+                "payload": "INTERSECTIONALITY",
+                "title": "Intersectionality"
+            },
+            {
+                "payload": "NEURODIVERSITY",
+                "title": "Neurodiversity"
+            },
+            {
+                "payload": "RACISM",
+                "title": "Racism"
+            },
+            {
+                "payload": "SOCIAL_MOBILITY",
+                "title": "Social Mobility"
+            },
+            {
+                "payload": "MONEY_PAY",
+                "title": "Money & Pay"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option",
+        "updateSession": {
+            "isAnonymous": true
+        }
+    },
+    "FALLBACK": {
+        "text": "I'm not sure how to respond to that. Please choose an option.",
+        "buttons": [
+            {
+                "payload": "DISCRIMINATION",
+                "title": "Discrimination"
+            },
+            {
+                "payload": "INTERSECTIONALITY",
+                "title": "Intersectionality"
+            },
+            {
+                "payload": "NEURODIVERSITY",
+                "title": "Neurodiversity"
+            },
+            {
+                "payload": "RACISM",
+                "title": "Racism"
+            },
+            {
+                "payload": "SOCIAL_MOBILITY",
+                "title": "Social Mobility"
+            },
+            {
+                "payload": "MONEY_PAY",
+                "title": "Money & Pay"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "RESTART": [
+        {
+            "text": "Hello, welcome to Brownstone EDI Guru."
+        },
+        {
+            "text": "We are here to advise and support you to ensure equity, diversity, and inclusion (EDI) policies work for you."
+        },
+        {
+            "text": "Can you tell us your name and email id? (All our conversations are confidential and are not shared with any third party)",
+            "buttons": [
+                {
+                    "payload": "NAME_EMAIL_CONTACT",
+                    "title": "Share Name, Email & Contact"
+                },
+                {
+                    "payload": "ANONYMOUS",
+                    "title": "Prefers anonymous"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": ""
+        }
+    ],
+    "MAIN_MENU": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "DISCRIMINATION",
+                    "title": "Discrimination"
+                },
+                {
+                    "payload": "INTERSECTIONALITY",
+                    "title": "Intersectionality"
+                },
+                {
+                    "payload": "NEURODIVERSITY",
+                    "title": "Neurodiversity"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Racism"
+                },
+                {
+                    "payload": "SOCIAL_MOBILITY",
+                    "title": "Social Mobility"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Money & Pay"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISCRIMINATION": [
+        {
+            "text": "The Equality Act 2010 legally protects people from discrimination in the workplace and in wider society."
+        },
+        {
+            "text": "It replaced previous anti-discrimination laws with a single Act, making the law easier to understand and strengthening protection in some situations."
+        },
+        {
+            "text": "It sets out the different ways in which it's unlawful to treat someone Through nin protected charactersitics.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_DISCRIMINATION",
+                    "title": "Different types of discrimination?"
+                },
+                {
+                    "payload": "PROTECTED_AT_WORK",
+                    "title": "How am I protected at work?"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Protection charactersitics?"
+                },
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISCRIMINATION_MENU": {
+        "text": "",
+        "buttons": [
+            {
+                "payload": "TYPES_OF_DISCRIMINATION",
+                "title": "Different types of discrimination?"
+            },
+            {
+                "payload": "PROTECTION_CHARACTERSITICS",
+                "title": "Protection charactersitics?"
+            },
+            {
+                "payload": "MAIN_MENU",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "TYPES_OF_DISCRIMINATION": [
+        {
+            "text": "<b>direct discrimination</b> - treating someone with a protected characteristic less favourably than others"
+        },
+        {
+            "text": "<b>indirect discrimination</b> - putting rules or arrangements in place that apply to everyone, but that put someone with a protected characteristic at an unfair disadvantage"
+        },
+        {
+            "text": "<b>harassment</b> - unwanted behaviour linked to a protected characteristic that violates someone's dignity or creates an offensive environment for them"
+        },
+        {
+            "text": "<b>victimisation</b> - treating someone unfairly because they've complained about discrimination or harassment"
+        },
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "PROTECTED_AT_WORK",
+                    "title": "How am I protected at work?"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Protection charactersitics?"
+                },
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PROTECTED_AT_WORK": [
+        {
+            "text": "<b>The law protects you against discrimination at work, including:</b>"
+        },
+        {
+            "text": "dismissal, employment terms & conditions, pay & benefits, promotion and transfer opportunities, training, recruitment, redundancy."
+        },
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_DISCRIMINATION",
+                    "title": "Different types of discrimination?"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Protection charactersitics?"
+                },
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PROTECTION_CHARACTERSITICS": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "AGE",
+                    "title": "Age"
+                },
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Gender reassignment"
+                },
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Being married or in a civil partnership"
+                },
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Being pregnant"
+                },
+                {
+                    "payload": "RACE",
+                    "title": "Race including colour, nationality, ethnic or national origin"
+                },
+                {
+                    "payload": "RELIGION",
+                    "title": "Religion or belief"
+                },
+                {
+                    "payload": "SEX",
+                    "title": "Sex"
+                },
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Sexual orientation"
+                },
+                {
+                    "payload": "DISABILITY",
+                    "title": "Disability"
+                },
+                {
+                    "payload": "DISCRIMINATION_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "AGE": [
+        {
+            "text": "Under UK law, age discrimination is prohibited by the Equality Act 2010, which protects employees from being treated unfairly due to their age. If an older employee is passed over for a promotion in favor of a younger colleague based on assumptions about age, such as being 'outdated,' this could amount to direct age discrimination."
+        },
+        {
+            "text": "Here are some initial solutions the older employee could consider:",
+            "buttons": [
+                {
+                    "payload": "AGE_RAISE_INFORMAL_GRIEVANCE",
+                    "title": "Raise an Informal Grievance"
+                },
+                {
+                    "payload": "AGE_SUBMIT_FORMAL_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "AGE_REQUEST_JUSTIFICATION",
+                    "title": "Request Justification from the Employer"
+                },
+                {
+                    "payload": "AGE_SEEK_LEGAL_ADVICE",
+                    "title": "Seek Legal Advice"
+                },
+                {
+                    "payload": "AGE_CONSIDER_ACAS_CONCILIATION",
+                    "title": "Consider ACAS Early Conciliation"
+                },
+                {
+                    "payload": "AGE_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "AGE_RAISE_INFORMAL_GRIEVANCE": {
+        "text": "The employee can first try to resolve the issue internally by raising an informal concern with their manager or HR department. It may be that the company is unaware of the discriminatory nature of their decision, and this could prompt a review or correction.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "AGE_SUBMIT_FORMAL_GRIEVANCE": {
+        "text": "If an informal discussion does not resolve the issue, the employee can escalate by filing a formal grievance with the company. This gives the company an opportunity to formally investigate the decision-making process behind the promotion.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "AGE_REQUEST_JUSTIFICATION": {
+        "text": "The company may argue that favoring a younger employee was based on objective criteria, such as innovation or adaptability. Under UK law, if an employer can objectively justify its decision (known as a 'proportionate means of achieving a legitimate aim'), it may not be unlawful. The employee could request clear evidence of how the decision was made and whether the chosen candidate truly met these criteria.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "AGE_SEEK_LEGAL_ADVICE": {
+        "text": "If internal procedures do not lead to a satisfactory resolution, the employee can seek legal advice from a solicitor specializing in employment law. The employee can also consult organizations such as ACAS (Advisory, Conciliation and Arbitration Service), which offers free, impartial advice on employment disputes.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "AGE_CONSIDER_ACAS_CONCILIATION": {
+        "text": "Before taking the matter to an employment tribunal, the employee is required to notify ACAS, which offers a service called Early Conciliation. This provides an opportunity to settle the dispute without going to tribunal.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "AGE_EMPLOYMENT_TRIBUNAL": {
+        "text": "If all else fails, the employee may lodge a claim with the Employment Tribunal for age discrimination. Claims must typically be made within three months less one day from the date of the discriminatory act. In the meantime, the company should ensure that any promotion decision is based on merit and not biased against employees based on their age, offering equal opportunities for development and advancement.",
+        "buttons": [
+            {
+                "payload": "AGE",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            },
+            {
+                "payload": "CONNECT_GURU",
+                "title": "Connect with a Guru"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "GENDER_REASSIGNMENT": [
+        {
+            "text": "Under UK law, specifically the Equality Act 2010, gender reassignment is a protected characteristic, meaning employees are safeguarded from discrimination, harassment, and victimisation related to their gender identity or transition. Failing to address harassment or using incorrect pronouns or a previous name ('deadnaming') could create a hostile work environment and amount to unlawful harassment based on gender reassignment."
+        },
+        {
+            "text": "Here are some initial solutions the older employee could consider:",
+            "buttons": [
+                {
+                    "payload": "GENDER_RAISE_INFORMAL_COMPLAINT",
+                    "title": "Raise an Informal Complaint"
+                },
+                {
+                    "payload": "GENDER_FILE_FORMAL_GRIEVANCE",
+                    "title": "File a Formal Grievance"
+                },
+                {
+                    "payload": "GENDER_REQUEST_TRAINING",
+                    "title": "Request Anti-Harassment Training and Policies"
+                },
+                {
+                    "payload": "GENDER_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or Employee Assistance Programs"
+                },
+                {
+                    "payload": "GENDER_CONSULT_ACAS",
+                    "title": "Consult ACAS (Advisory, Conciliation and Arbitration Service)"
+                },
+                {
+                    "payload": "GENDER_EARLY_CONCILIATION",
+                    "title": "Early Conciliation and Employment Tribunal"
+                },
+                {
+                    "payload": "GENDER_CONSIDER_LEGAL_ACTION",
+                    "title": "Consider Legal Action for Constructive Dismissal (if applicable)"
+                },
+                {
+                    "payload": "GENDER_IMPLEMENT_CHANGES",
+                    "title": "Implement Workplace Changes"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_RAISE_INFORMAL_COMPLAINT": [
+        {
+            "text": "The first step might be to raise an informal complaint with management or HR. This could involve discussing the issue directly with a line manager or an HR representative to ensure the company understands the seriousness of the situation and has a chance to resolve it without formal action.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_FILE_FORMAL_GRIEVANCE": [
+        {
+            "text": "If informal resolution doesn't work or if the harassment persists, the employee can submit a formal grievance in writing. A formal grievance should detail:"
+        },
+        {
+            "text": "The specific incidents of harassment (e.g., being called the wrong pronouns, deadnaming)."
+        },
+        {
+            "text": "The failure of management to act on previous complaints."
+        },
+        {
+            "text": "The negative impact this has on the employee's well-being and work environment."
+        },
+        {
+            "text": "Management will then be obliged to formally investigate and take appropriate corrective actions.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_REQUEST_TRAINING": [
+        {
+            "text": "The employee could request that the company implement specific policies to prevent harassment related to gender identity. This might include:"
+        },
+        {
+            "text": "Mandatory diversity and inclusion training focused on gender identity."
+        },
+        {
+            "text": "Clear policies on the use of correct pronouns and names."
+        },
+        {
+            "text": "Procedures for dealing with complaints of harassment quickly and effectively."
+        },
+        {
+            "text": "These policies help ensure the company is compliant with UK law and promote an inclusive culture.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, they can approach their representative for support and advice. The union can advocate on their behalf during meetings and help in raising grievances. Additionally, some companies offer Employee Assistance Programs (EAPs), which can provide mental health support and guidance on handling workplace issues.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_CONSULT_ACAS": [
+        {
+            "text": "If the employer fails to address the situation adequately, the employee can seek advice from ACAS, which provides free, impartial advice on employment rights and resolving workplace disputes. ACAS may also be able to facilitate mediation between the employee and the employer.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_EARLY_CONCILIATION": [
+        {
+            "text": "If the issue remains unresolved, the employee can notify ACAS to begin Early Conciliation, a mandatory step before taking legal action. Early Conciliation offers an opportunity to resolve the issue without going to a tribunal."
+        },
+        {
+            "text": "If conciliation fails, the employee can file a claim with the Employment Tribunal for harassment related to gender reassignment under the Equality Act 2010. Claims must be submitted within three months less one day of the last incident of harassment.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_CONSIDER_LEGAL_ACTION": [
+        {
+            "text": "If the work environment becomes intolerable due to management's failure to act and harassment continues, the employee might also consider a constructive dismissal claim. This would involve resigning and arguing that the employer's failure to provide a safe, non-hostile work environment amounts to a breach of contract.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_IMPLEMENT_CHANGES": [
+        {
+            "text": "If management responds positively, they should:"
+        },
+        {
+            "text": "Enforce a clear policy requiring the use of correct names and pronouns."
+        },
+        {
+            "text": "Address the behavior of the harassing colleagues through disciplinary actions if necessary."
+        },
+        {
+            "text": "Regularly monitor and review the work environment to ensure the employee feels safe and supported."
+        },
+        {
+            "text": "By taking these steps, the employee can ensure their rights are protected under UK law, while the employer should work to create a more inclusive, respectful workplace for all employees.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_OR_PARTNERSHIP": [
+        {
+            "text": "Under UK law, the Equality Act 2010 protects individuals from discrimination based on marriage or civil partnership status. This means that employers cannot treat employees unfairly because they are married or in a civil partnership, and denying certain benefits on this basis could amount to direct discrimination ."
+        },
+        {
+            "text": "Here are some initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "MARRIED_RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "MARRIED_REQUEST_EXPLANATION",
+                    "title": "Request an Explanation for the Disparity"
+                },
+                {
+                    "payload": "MARRIED_SUBMIT_FORMAL_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "MARRIED_REVIEW_POLICIES",
+                    "title": "Review the Company's Equal Opportunity Policies"
+                },
+                {
+                    "payload": "MARRIED_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or Advisory Service"
+                },
+                {
+                    "payload": "MARRIED_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "MARRIED_FILE_TRIBUNAL_CLAIM",
+                    "title": "File a Claim with the Employment Tribunal"
+                },
+                {
+                    "payload": "MARRIED_REQUEST_POLICY_REVIEW",
+                    "title": "Request a Policy Review"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The first step is to raise the concern informally with their manager or HR department. The employee can explain that they believe they are being treated unfairly due to their marital status and ask for clarification on why they are being excluded from benefits such as travel opportunities. This can give the employer a chance to reconsider the decision without escalation.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_REQUEST_EXPLANATION": [
+        {
+            "text": "The employee can request a formal explanation as to why they are being denied specific benefits. The employer would need to justify any differential treatment, and if the explanation is linked to the employee's marital status, it could be viewed as direct discrimination under the Equality Act 2010.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_SUBMIT_FORMAL_GRIEVANCE": [
+        {
+            "text": "If the informal approach does not resolve the issue, the employee can escalate by filing a formal grievance. This grievance should:"
+        },
+        {
+            "text": "Document the specific benefits being denied (e.g., travel opportunities)."
+        },
+        {
+            "text": "Provide evidence or examples showing that single employees are receiving these benefits, and that marital status seems to be the determining factor."
+        },
+        {
+            "text": "Reference the Equality Act 2010 protections against discrimination based on marriage or civil partnership status."
+        },
+        {
+            "text": "The employer would be required to investigate the grievance and take corrective action if the disparity is found to be discriminatory.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_REVIEW_POLICIES": [
+        {
+            "text": "The employee can review the company's equal opportunity or anti-discrimination policies to see if they comply with the Equality Act 2010. If the company lacks clear policies on treating married or civil partnership employees equally, the employee could request that the employer improve or implement policies that ensure equal access to benefits for all employees, regardless of marital status.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, they can reach out to their representative for support. Unions can offer advice on how to proceed and may be able to support the employee in meetings or grievance processes. ACAS(Advisory, Conciliation and Arbitration Service) also offers free and impartial advice on employment disputes and discrimination matters.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_ACAS_CONCILIATION": [
+        {
+            "text": "If the grievance process does not lead to a satisfactory outcome, the employee can contact ACAS to start the Early Conciliation process, which aims to resolve disputes before they escalate to an employment tribunal. This process allows both the employer and employee to reach a settlement without formal legal action.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_FILE_TRIBUNAL_CLAIM": [
+        {
+            "text": "If Early Conciliation is unsuccessful or if the employer fails to rectify the discrimination, the employee can lodge a claim with the Employment Tribunal for discrimination based on marriage or civil partnership status. The claim must usually be filed within three months less one day of the discriminatory act.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MARRIED_REQUEST_POLICY_REVIEW": [
+        {
+            "text": "The employee can request that the employer undertake a broader review of policies that exclude or disadvantage married employees. This may involve updating the company's benefits policy to ensure it is fair, transparent, and in compliance with anti-discrimination laws. The employer should ensure that personal commitments such as marriage are not assumed to interfere with work responsibilities unless there is concrete evidence.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "BEING_PREGNANT": [
+        {
+            "text": "Under UK law, pregnancy and maternity are protected characteristics under the Equality Act 2010 , which means it is unlawful to treat a pregnant employee unfavorably because of their pregnancy or impending maternity leave. Excluding a pregnant employee from important meetings, projects, or passing them over for a promotion due to assumptions about their commitment or availability could constitute direct pregnancy and maternity discrimination ."
+        },
+        {
+            "text": "Here are some initial solutions the pregnant employee could consider:",
+            "buttons": [
+                {
+                    "payload": "PREGNANT_RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "PREGNANT_REQUEST_EXPLANATION",
+                    "title": "Request a Formal Explanation"
+                },
+                {
+                    "payload": "PREGNANT_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "PREGNANT_SEEK_INTERNAL_REVIEW",
+                    "title": "Seek an Internal Review of Policies"
+                },
+                {
+                    "payload": "PREGNANT_CONSULT_UNION",
+                    "title": "Consult a Trade Union or Seek External Advice"
+                },
+                {
+                    "payload": "PREGNANT_REVIEW_OBLIGATIONS",
+                    "title": "Review the Employer's Statutory Obligations"
+                },
+                {
+                    "payload": "PREGNANT_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "PREGNANT_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "PREGNANT_REQUEST_ADJUSTMENTS",
+                    "title": "Request Reasonable Adjustments (if necessary)"
+                },
+                {
+                    "payload": "PREGNANT_ENCOURAGE_COMMUNICATION",
+                    "title": "Encourage Clear Communication"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The employee can first address the issue informally with their line manager or HR department. It is possible that the employer is unaware that excluding the employee from meetings and projects based on assumptions about her pregnancy is discriminatory. This informal discussion gives the employer a chance to correct their behavior and ensure fair treatment.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_REQUEST_EXPLANATION": [
+        {
+            "text": "The employee can request a formal explanation for why she has been excluded from important projects and meetings or why she was passed over for promotion. If the reason is related to her pregnancy or upcoming maternity leave, this could amount to direct discrimination under the Equality Act 2010. The employer must not make assumptions about the employee's commitment or availability without consulting her.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If informal discussions do not resolve the issue, the employee can file a formal grievance. The grievance should:"
+        },
+        {
+            "text": "Outline the specific incidents where she was excluded from meetings, projects, or passed over for promotion."
+        },
+        {
+            "text": "State that the reasons given for this treatment appear to be linked to her pregnancy or impending maternity leave."
+        },
+        {
+            "text": "Reference the Equality Act 2010 protections against pregnancy and maternity discrimination."
+        },
+        {
+            "text": "The employer is obligated to investigate the grievance and take appropriate action to address any discrimination.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_SEEK_INTERNAL_REVIEW": [
+        {
+            "text": "The employee can ask HR to review internal policies regarding pregnancy, maternity leave, and promotion criteria. The company should have clear policies ensuring that pregnant employees are treated fairly and are not excluded from career opportunities or important work activities based on assumptions about their future availability.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_CONSULT_UNION": [
+        {
+            "text": "If the employee is a member of a trade union, she can approach her union representative for support. Unions can help advise on how to proceed, offer representation during meetings with management, and advocate on her behalf. The employee can also seek advice from ACAS (Advisory, Conciliation and Arbitration Service), which provides free, impartial advice on employment disputes and discrimination issues.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_REVIEW_OBLIGATIONS": [
+        {
+            "text": "Employers in the UK have specific statutory obligations towards pregnant employees, including the duty to:"
+        },
+        {
+            "text": "Avoid discrimination based on pregnancy or maternity."
+        },
+        {
+            "text": "Ensure that pregnant employees have access to career development opportunities and are not passed over for promotions due to their pregnancy or upcoming maternity leave."
+        },
+        {
+            "text": "The employee can remind the employer of these obligations and request that they comply with the law.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_ACAS_CONCILIATION": [
+        {
+            "text": "If the grievance process does not resolve the issue, the employee can contact ACAS to begin the Early Conciliation process. This service aims to help resolve disputes before they escalate to legal action, offering both parties a chance to reach a mutually agreeable solution.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If Early Conciliation fails or the employer does not address the discrimination, the employee can lodge a claim with the Employment Tribunal for pregnancy and maternity discrimination. Claims must be submitted within three months less one day from the date of the discriminatory act. The tribunal can assess whether the employee's exclusion from meetings, projects, or promotion opportunities was based on unlawful discrimination.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_REQUEST_ADJUSTMENTS": [
+        {
+            "text": "If there are legitimate concerns about the employee's health or well-being due to pregnancy, she could request reasonable adjustments under health and safety regulations. However, these adjustments should be based on her specific needs and should not involve automatic exclusion from projects or meetings unless medically necessary.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PREGNANT_ENCOURAGE_COMMUNICATION": [
+        {
+            "text": "It's important for the employee to emphasize her commitment to work and her willingness to be included in projects and meetings until her maternity leave starts. Clear communication with her employer about her availability can help dispel any assumptions or stereotypes about pregnant employees.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE": [
+        {
+            "text": "Under UK law, the Equality Act 2010 prohibits discrimination, harassment, and victimisation based on race, which includes color, nationality, ethnic, or national origin. Subjecting someone of Middle Eastern descent to offensive 'jokes' about terrorism or excluding them from client meetings due to fears about 'security concerns' could constitute direct race discrimination and racial harassment."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "RACE_RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "RACE_DOCUMENT_INCIDENTS",
+                    "title": "Document Incidents of Harassment and Exclusion"
+                },
+                {
+                    "payload": "RACE_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "RACE_REQUEST_TRAINING",
+                    "title": "Request Anti-Discrimination Training"
+                },
+                {
+                    "payload": "RACE_REVIEW_POLICIES",
+                    "title": "Review the Company's Equal Opportunity and Anti-Discrimination Policies"
+                },
+                {
+                    "payload": "RACE_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or External Organizations"
+                },
+                {
+                    "payload": "RACE_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "RACE_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "RACE_REVIEW_PRACTICES",
+                    "title": "Propose a Review of Client Meeting Practices"
+                },
+                {
+                    "payload": "RACE_REPORT_EXTERNAL",
+                    "title": "Consider Reporting to an External Regulatory Body"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The employee could first try to resolve the situation informally by speaking with their line manager or HR department. The employee should clearly explain that the \"jokes\" about terrorism are offensive and discriminatory and that being excluded from meetings based on race or nationality is unacceptable under the Equality Act 2010. This informal discussion gives the employer an opportunity to address the behavior without formal escalation.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_DOCUMENT_INCIDENTS": [
+        {
+            "text": "It is important for the employee to keep a record of any incidents of harassment, including dates, times, and the names of the individuals involved. Similarly, the employee should document instances where they were excluded from meetings or work opportunities due to discriminatory reasons. This documentation can be helpful for future grievance processes or legal actions.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the informal approach does not resolve the issue, the employee can file a formal grievance with HR. The grievance should detail:"
+        },
+        {
+            "text": "Specific incidents of racial harassment (e.g., \"jokes\" about terrorism)."
+        },
+        {
+            "text": "Instances where they were excluded from client meetings due to race, nationality, or ethnicity."
+        },
+        {
+            "text": "The negative impact this has had on their work environment and professional opportunities."
+        },
+        {
+            "text": "Reference the Equality Act 2010 protections against race discrimination and harassment."
+        },
+        {
+            "text": "The employer will be required to investigate the grievance and take appropriate action, which could include disciplining those responsible for the harassment or changing the company's practices regarding client meetings.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_REQUEST_TRAINING": [
+        {
+            "text": "The employee could request that the company implement or update anti-discrimination training, particularly focusing on issues of racial sensitivity and workplace harassment. This could help raise awareness among employees about the legal and moral obligations to treat colleagues respectfully and could help prevent future incidents.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_REVIEW_POLICIES": [
+        {
+            "text": "The employee should review the company's existing equal opportunity and anti-discrimination policies to determine if they are compliant with the Equality Act 2010. If these policies are inadequate or not enforced properly, the employee could ask HR to revise and strengthen them to better protect against racial harassment and discrimination.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, they can seek advice and support from their union representative. Trade unions can assist with filing grievances, negotiating with management, and offering representation in meetings. Additionally, the employee could consult external organizations, such as ACAS or Equality and Human Rights Commission (EHRC), which offer advice on how to handle race discrimination and harassment at work.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_ACAS_CONCILIATION": [
+        {
+            "text": "If the employer fails to address the issue through the grievance process, the employee can initiate Early Conciliation through ACAS. This service offers a chance to settle disputes between employees and employers before escalating to legal action. Both sides are encouraged to resolve the issue amicably through mediation.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If the issue remains unresolved after Early Conciliation, the employee can file a claim with the Employment Tribunal for racial harassment and discrimination under the Equality Act 2010. The claim must usually be submitted within three months less one day from the date of the discriminatory act. The tribunal can assess whether the employer has taken appropriate steps to prevent racial harassment and whether the exclusion from client meetings was discriminatory.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_REVIEW_PRACTICES": [
+        {
+            "text": "If the company excluded the employee from client meetings due to assumptions about their race, they could request a review of the company's decision-making process for client-facing activities. The employer must ensure that such decisions are based on merit and work-related factors, not on stereotypes or assumptions related to race or nationality. Excluding someone from meetings based on the fear of \"raising security concerns\" due to their race is discriminatory and could lead to legal consequences.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACE_REPORT_EXTERNAL": [
+        {
+            "text": "If the employer's actions are particularly egregious or if the company does not address the issue internally, the employee may report the matter to an external body, such as the Equality and Human Rights Commission (EHRC), which can investigate and take action against employers who fail to comply with anti-discrimination laws.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION": [
+        {
+            "text": "Under UK law, the Equality Act 2010 protects employees from discrimination based on religion or belief. This includes the right to manifest their religion through dress, such as wearing religious attire like a hijab, turban, kippah, or other symbols of faith. Forcing an employee to choose between their job and their religious practices, particularly due to concerns about 'corporate image,' could constitute direct discrimination or indirect discrimination unless the employer can show a legitimate and proportionate justification."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "RELIGION_RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "RELIGION_REQUEST_REVIEW",
+                    "title": "Request a Formal Review of Dress Code Policy"
+                },
+                {
+                    "payload": "RELIGION_REQUEST_JUSTIFICATION",
+                    "title": "Request Justification for the Policy"
+                },
+                {
+                    "payload": "RELIGION_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "RELIGION_PROPOSE_COMPROMISES",
+                    "title": "Propose Reasonable Compromises"
+                },
+                {
+                    "payload": "RELIGION_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or Religious Advocacy Group"
+                },
+                {
+                    "payload": "RELIGION_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "RELIGION_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "RELIGION_ENCOURAGE_POLICIES",
+                    "title": "Encourage Inclusive Workplace Policies"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The employee could first have an informal discussion with management or HR to explain the significance of their religious attire and how the company's refusal to allow it affects their religious freedom. This conversation might provide the employer with an opportunity to reconsider the decision without escalating the matter further. They could explain that the Equality Act 2010 protects their right to wear religious attire in the workplace.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_REQUEST_REVIEW": [
+        {
+            "text": "The employee can formally request that the company reviews its dress code policy, particularly in relation to religious attire. The request should highlight:"
+        },
+        {
+            "text": "The importance of religious attire to the employee's faith and how it forms part of their religious observance."
+        },
+        {
+            "text": "Reference to the Equality Act 2010, which requires employers to make reasonable accommodations to avoid discrimination based on religion or belief. The employer should consider revising the dress code policy to allow for religious expression, unless they can show a legitimate reason why such attire would harm business operations.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_REQUEST_JUSTIFICATION": [
+        {
+            "text": "If the employer insists that religious attire does not fit the company's \"corporate image,\" the employee can ask for a written explanation or justification for this stance. Under UK law, employers are required to justify any policies that may indirectly discriminate against employees of certain religious backgrounds. If the policy disproportionately affects employees of a specific religion, the employer must demonstrate that it is a proportionate means of achieving a legitimate aim. The concept of \"corporate image\" alone is unlikely to constitute a sufficient justification for denying an employee the right to wear religious attire, especially if the attire does not affect the employee's ability to perform their job.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If informal discussions fail, the employee can submit a formal grievance, citing:"
+        },
+        {
+            "text": "The refusal to allow religious attire as a violation of their rights under the Equality Act 2010."
+        },
+        {
+            "text": "The impact this decision has had on their ability to practice their religion and the stress caused by having to choose between their job and religious beliefs."
+        },
+        {
+            "text": "The need for the company to accommodate religious diversity in the workplace."
+        },
+        {
+            "text": "The employer will be obliged to investigate the grievance and take corrective action if they find that their dress code policy is discriminatory.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_PROPOSE_COMPROMISES": [
+        {
+            "text": "The employee can propose reasonable compromises if the employer is concerned about specific aspects of the religious attire. For example, if there are concerns related to health and safety (e.g., in a workplace with machinery), the employee could suggest modifications that still respect their religious beliefs while addressing the employer's concerns."
+        },
+        {
+            "text": "In most cases, however, corporate image is not a justifiable reason for restricting religious attire, so the employee should make it clear that any restrictions must be based on legitimate business needs, not subjective judgments about appearance.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_SEEK_SUPPORT": [
+        {
+            "text": "The employee may also seek advice and support from a trade union or a religious advocacy group, such as the Muslim Council of Britain, Sikh Council UK, or Inter Faith Network for the UK, depending on their specific religious background. These organizations can provide guidance on how to handle workplace religious discrimination and advocate on the employee's behalf.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_ACAS_CONCILIATION": [
+        {
+            "text": "If the grievance process does not resolve the issue, the employee can initiate Early Conciliation through ACAS. This service aims to help the employer and employee reach an agreement without going to court. ACAS will facilitate discussions between both parties to try to resolve the issue amicably.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If all other methods fail, the employee can file a claim with the Employment Tribunal for religious discrimination under the Equality Act 2010. The claim must usually be submitted within three months less one day from the date of the discriminatory act. The tribunal will consider whether the employer's refusal to allow religious attire constitutes unlawful discrimination and whether the dress code policy can be justified as a legitimate business requirement.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RELIGION_ENCOURAGE_POLICIES": [
+        {
+            "text": "The employee can advocate for broader changes to the company's policies and practices, encouraging management to develop more inclusive workplace policies. This could include diversity and inclusion training focused on religious practices and accommodation, as well as revising the company's overall approach to employee attire to ensure it is respectful of cultural and religious diversity.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX": [
+        {
+            "text": "Under UK law, the Equality Act 2010 and the Equal Pay Act 1970 ensure that men and women are entitled to equal pay for equal work or work of equal value. The fact that a female employee receives less pay than her male counterparts for the same role and responsibilities, and is dismissed with a statement such as 'men are the primary earners,' likely constitutes direct sex discrimination and unequal pay. This is unlawful."
+        },
+        {
+            "text": "The employee should first request a salary review and then escalate the issue by filing a formal grievance if necessary. Support from a trade union, advice from ACAS, and the Early Conciliation process can help resolve the issue if the employer does not address it internally. If no resolution is reached, the employee may file a legal claim with the Employment Tribunal for sex discrimination and unequal pay. By referencing the Equality Act 2010 and Equal Pay Act 1970, the employee can ensure her right to equal pay is upheld."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "SEX_REQUEST_REVIEW",
+                    "title": "Request a Salary Review and Pay Comparison"
+                },
+                {
+                    "payload": "SEX_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "SEX_REFER_POLICY",
+                    "title": "Refer to the Employer's Equal Pay Policy"
+                },
+                {
+                    "payload": "SEX_REQUEST_EVALUATION",
+                    "title": "Request a Job Evaluation"
+                },
+                {
+                    "payload": "SEX_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union"
+                },
+                {
+                    "payload": "SEX_CONSULT_EXTERNAL",
+                    "title": "Consult External Bodies for Advice"
+                },
+                {
+                    "payload": "SEX_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "SEX_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "SEX_REQUEST_PAY_GAP_DATA",
+                    "title": "Request Gender Pay Gap Data"
+                },
+                {
+                    "payload": "SEX_ENCOURAGE_AUDITS",
+                    "title": "Encourage Equal Pay Audits"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_REQUEST_REVIEW": [
+        {
+            "text": "The employee should first request a salary review from HR or her line manager, asking for a clear explanation of why her pay is lower than her male colleagues despite having the same role and responsibilities. The employee can also ask for pay comparison data, specifically looking at the pay of male counterparts performing the same or comparable work.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the request for a salary review or explanation is dismissed, the employee can file a formal grievance. In this grievance, the employee should: Detail the issue of unequal pay. Provide examples or evidence that her male counterparts are receiving more pay for the same work. Mention the dismissive response about \"men being the primary earners,\" highlighting that this is direct sex discrimination. Reference the Equal Pay Act 1970 and the Equality Act 2010, which guarantee equal pay for equal work. The employer is required to investigate the grievance and address any unlawful pay practices.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_REFER_POLICY": [
+        {
+            "text": "The employee can review the company's equal pay policy, if it exists. Many employers have specific policies to ensure that pay practices comply with UK law. If such a policy is in place but not being followed, the employee can point this out in her grievance. If there is no such policy, the employee can suggest that the company develop and implement one to prevent further discrepancies.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_REQUEST_EVALUATION": [
+        {
+            "text": "The employee can request that a job evaluation be conducted to formally assess whether her role is of equal value to those of her male colleagues. A job evaluation is a structured process that assesses the content of the role, skills required, responsibilities, and working conditions to ensure that pay is based on objective criteria rather than gender.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, she can seek advice and support from her union representative. Trade unions can provide valuable assistance in filing grievances, negotiating pay, and representing the employee in discussions with management. Some unions also have the legal resources to help file equal pay claims.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_CONSULT_EXTERNAL": [
+        {
+            "text": "The employee could seek external advice from organizations such as ACAS (Advisory, Conciliation and Arbitration Service), which provides free and impartial advice on employment rights, including issues related to equal pay and sex discrimination. Equality and Human Rights Commission (EHRC) is another organization that provides support and can investigate complaints related to sex discrimination and unequal pay.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_ACAS_CONCILIATION": [
+        {
+            "text": "If the employer does not address the grievance adequately, the employee can notify ACAS and start the Early Conciliation process. This is a mandatory step before filing a legal claim and provides an opportunity to settle the issue without going to court. ACAS will mediate between the employee and employer to try to reach a fair resolution.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If Early Conciliation does not resolve the issue, the employee can file a claim with the Employment Tribunal for sex discrimination and unequal pay under the Equality Act 2010 and the Equal Pay Act 1970. The claim must typically be submitted within six months of the last discriminatory pay period. In a tribunal, the employee can seek: Back pay for the difference in wages. Compensation for any financial loss or emotional distress caused by the unequal treatment.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_REQUEST_PAY_GAP_DATA": [
+        {
+            "text": "Under the Equality Act 2010 (Gender Pay Gap Information) Regulations 2017, companies with 250 or more employees are required to publish their gender pay gap data. Although this data will not provide individual salary information, it can indicate whether a broader pay disparity exists within the company. The employee can use this data to strengthen her case, showing that pay disparities may be systemic.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEX_ENCOURAGE_AUDITS": [
+        {
+            "text": "The employee could also suggest that the employer conduct an equal pay audit. This is a formal review of pay practices to ensure that men and women are paid equally for equal work. Equal pay audits help companies comply with legal obligations and identify any gender pay gaps or disparities that need to be corrected.",
+            "buttons": [
+                {
+                    "payload": "SEX",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEXUAL_ORIENTATION": [
+        {
+            "text": "Under UK law, the Equality Act 2010 protects individuals from discrimination based on sexual orientation . Excluding an employee in a same-sex relationship from company events where spouses are invited—on the basis that it might make other employees 'uncomfortable'—is a clear case of direct discrimination . This treatment is unlawful, as it unfairly disadvantages the employee because of their sexual orientation."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "ORIENTATION_RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "ORIENTATION_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "ORIENTATION_PROPOSE_POLICY",
+                    "title": "Propose an Inclusive Policy for Events"
+                },
+                {
+                    "payload": "ORIENTATION_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or LGBTQ+ Advocacy Group"
+                },
+                {
+                    "payload": "ORIENTATION_CONSULT_EXTERNAL",
+                    "title": "Consult External Bodies for Advice"
+                },
+                {
+                    "payload": "ORIENTATION_REQUEST_TRAINING",
+                    "title": "Request Diversity and Inclusion Training"
+                },
+                {
+                    "payload": "ORIENTATION_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "ORIENTATION_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "ORIENTATION_PROMOTE_CULTURE",
+                    "title": "Promote an Inclusive Workplace Culture"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The employee could first try to resolve the issue informally by discussing it with their line manager or HR department. They should explain that excluding them from events where spouses are invited is discriminatory under the Equality Act 2010 and that such exclusion is both unfair and hurtful. This approach provides the employer with an opportunity to correct their behavior before escalating the matter further.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the informal approach does not resolve the issue, the employee can file a formal grievance. In the grievance, they should: Detail the specific instances where they were excluded from company events because of their same-sex relationship. Emphasize that this exclusion is discriminatory and unfair. Reference the Equality Act 2010, which prohibits discrimination based on sexual orientation, and highlight that the employer is treating them less favorably than employees in opposite-sex relationships. Request that the company update its policy to ensure all employees, regardless of sexual orientation, are treated equally at social and professional events. The employer is required to investigate the grievance and respond appropriately, which could involve changing event policies to include all spouses or partners.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_PROPOSE_POLICY": [
+        {
+            "text": "The employee could propose that the company implement or revise its policy for inviting spouses and partners to events. The new policy should be inclusive of all relationships, regardless of sexual orientation. This would ensure that no employee is excluded based on their personal life or relationship status, helping to foster a more inclusive workplace culture.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, they can seek support from their union representative. The union can provide guidance on how to file grievances and represent the employee in discussions with management. Alternatively, the employee could reach out to LGBTQ+ advocacy organizations, such as Stonewall or the LGBT Foundation, which provide advice on handling workplace discrimination and can offer additional resources to address the issue.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_CONSULT_EXTERNAL": [
+        {
+            "text": "The employee can seek advice from ACAS (Advisory, Conciliation and Arbitration Service), which offers free and impartial guidance on workplace disputes. ACAS can help the employee understand their rights under the Equality Act 2010 and suggest potential next steps for resolving the discrimination issue.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_REQUEST_TRAINING": [
+        {
+            "text": "The employee can suggest that the company implement diversity and inclusion training that specifically addresses issues related to sexual orientation. This training can help raise awareness among staff and management about the legal and ethical obligations to treat all employees, including those in same-sex relationships, fairly and respectfully.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_ACAS_CONCILIATION": [
+        {
+            "text": "If the company does not take appropriate steps to resolve the issue, the employee can begin Early Conciliation with ACAS. This service allows the employee and employer to discuss the matter through a neutral third party and attempt to reach a settlement without the need for legal action. Early Conciliation is mandatory before making an employment tribunal claim.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If the grievance process and Early Conciliation do not resolve the matter, the employee can file a claim with the Employment Tribunal for direct discrimination based on sexual orientation under the Equality Act 2010. The claim must typically be submitted within three months less one day from the date of the last discriminatory act. At the tribunal, the employee can seek: Compensation for the emotional distress caused by the exclusion. A ruling that the employer's actions were discriminatory and unlawful. An order for the employer to change its policies to ensure no further discrimination occurs.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ORIENTATION_PROMOTE_CULTURE": [
+        {
+            "text": "If the company is willing to make changes, the employee can encourage broader cultural shifts to ensure that inclusion is prioritized. This could include: Establishing an LGBTQ+ employee network or support group within the company. Reviewing company policies to ensure they are aligned with equality and diversity principles. Implementing a zero-tolerance policy for any discriminatory practices related to sexual orientation.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY": [
+        {
+            "text": "Under UK law, specifically the Equality Act 2010 , employers have a duty to make reasonable adjustments for disabled employees to ensure they are not put at a disadvantage compared to non-disabled colleagues. Refusing to provide accessible facilities, such as ramps or accessible bathrooms, or suggesting that an employee work from home without considering other reasonable accommodations, could amount to disability discrimination and a failure to comply with the duty to make reasonable adjustments."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "DISABILITY_RAISE_INFORMAL_COMPLAINT",
+                    "title": "Raise an Informal Complaint"
+                },
+                {
+                    "payload": "DISABILITY_REQUEST_REVIEW",
+                    "title": "Request a Formal Review of Reasonable Adjustments"
+                },
+                {
+                    "payload": "DISABILITY_REQUEST_EXPLANATION",
+                    "title": "Request a Written Explanation of \"Cost\" Justification"
+                },
+                {
+                    "payload": "DISABILITY_PROPOSE_SOLUTIONS",
+                    "title": "Propose Alternative Solutions"
+                },
+                {
+                    "payload": "DISABILITY_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "DISABILITY_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or Disability Advocacy Group"
+                },
+                {
+                    "payload": "DISABILITY_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "DISABILITY_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "DISABILITY_REQUEST_ASSESSMENT",
+                    "title": "Request a Health and Safety Assessment"
+                },
+                {
+                    "payload": "DISABILITY_CLARIFY_POLICY",
+                    "title": "Clarify that Working from Home Should Be Voluntary"
+                },
+                {
+                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_RAISE_INFORMAL_COMPLAINT": [
+        {
+            "text": "The employee can first raise the issue informally with their line manager or HR, explaining the difficulties caused by the lack of accessible facilities (e.g., ramps, accessible bathrooms)."
+        },
+        {
+            "text": "The employer may not fully understand the impact that the lack of adjustments is having on the employee's ability to perform their job."
+        },
+        {
+            "text": "This conversation allows the employer to rectify the situation before taking further steps.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_REQUEST_REVIEW": [
+        {
+            "text": "The employee can formally request that the employer conduct a review of the reasonable adjustments they need under the Equality Act 2010. In this request, the employee should:"
+        },
+        {
+            "text": "Specify the adjustments required, such as accessible ramps, accessible bathrooms, and other modifications."
+        },
+        {
+            "text": "Emphasize that these adjustments are necessary for them to perform their job on equal terms as their colleagues."
+        },
+        {
+            "text": "Reference the employer's legal duty to make reasonable adjustments under the Equality Act 2010."
+        },
+        {
+            "text": "The employer is required to consider these adjustments and demonstrate that they have taken reasonable steps to accommodate the employee's needs.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_REQUEST_EXPLANATION": [
+        {
+            "text": "If the employer claims that providing the necessary adjustments (e.g., ramps, bathrooms) is \"too expensive,\" the employee can request a written explanation justifying this decision."
+        },
+        {
+            "text": "Under the Equality Act 2010, employers must make adjustments unless they can prove that the cost or other reasons are unreasonable or disproportionate."
+        },
+        {
+            "text": "Employers should also explore less expensive alternatives to make the workplace accessible, but simply stating that adjustments are \"too expensive\" is often insufficient without a proper, evidence-based justification.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_PROPOSE_SOLUTIONS": [
+        {
+            "text": "The employee can suggest alternative, cost-effective solutions if the employer claims that certain accommodations are too expensive. For example, the employee might propose:"
+        },
+        {
+            "text": "A phased installation of accessible features over time."
+        },
+        {
+            "text": "Temporary solutions, like portable ramps or relocating to a more accessible part of the building."
+        },
+        {
+            "text": "This approach shows the employee's willingness to find a practical solution while ensuring their rights are respected.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the issue is not resolved informally, the employee can file a formal grievance with their employer, outlining:"
+        },
+        {
+            "text": "The lack of accessible facilities."
+        },
+        {
+            "text": "The employer's refusal or delay in making reasonable adjustments."
+        },
+        {
+            "text": "How the situation is affecting their ability to work and their career development."
+        },
+        {
+            "text": "Reference to the employer's legal duty to make reasonable adjustments under the Equality Act 2010."
+        },
+        {
+            "text": "The employer will be required to investigate the grievance and take steps to address the situation.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is part of a trade union, they can seek advice and support from their union representative. Trade unions can advocate on behalf of the employee, particularly when dealing with management or during grievance processes."
+        },
+        {
+            "text": "Additionally, the employee could seek advice from disability advocacy groups or organizations such as Disability Rights UK, which can offer guidance on dealing with workplace discrimination and access issues.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_ACAS_CONCILIATION": [
+        {
+            "text": "If the grievance process does not resolve the issue, the employee can notify ACAS to start the Early Conciliation process."
+        },
+        {
+            "text": "This service is designed to help resolve disputes before they escalate into legal action, providing an opportunity for both parties to negotiate a resolution.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If Early Conciliation fails, the employee can file a claim with the Employment Tribunal for disability discrimination or failure to make reasonable adjustments under the Equality Act 2010."
+        },
+        {
+            "text": "Claims must be submitted within three months less one day from the date of the discriminatory act or the employer's failure to act."
+        },
+        {
+            "text": "The tribunal will assess whether the employer has taken appropriate steps to comply with their legal duties.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_REQUEST_ASSESSMENT": [
+        {
+            "text": "The employee could request a health and safety risk assessment to demonstrate that without accessible facilities, they are unable to work safely and effectively."
+        },
+        {
+            "text": "Employers are required by law to ensure the health and safety of all employees, and this could strengthen the case for making the necessary adjustments.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISABILITY_CLARIFY_POLICY": [
+        {
+            "text": "The employer suggests that the employee works from home as an alternative to making adjustments, the employee can clarify that working from home should only be voluntary and not imposed."
+        },
+        {
+            "text": "While working from home can be a reasonable adjustment in some cases, it should not limit the employee's involvement in important projects, career development, or opportunities for advancement."
+        },
+        {
+            "text": "The employer must provide reasonable adjustments that allow the employee to work effectively on-site if they choose to do so.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INTERSECTIONALITY": [],
+    "NEURODIVERSITY": [],
+    "RACISM": [],
+    "SOCIAL_MOBILITY": [],
+    "MONEY_PAY": [],
+    "CONNECT_GURU": {
+        "text": "Brownstone EDI Guru coming soon....",
+        "buttons": [
+            {
+                "payload": "PROTECTION_CHARACTERSITICS",
+                "title": "Back to Previous Menu"
+            },
+            {
+                "payload": "RESTART",
+                "title": "Restart Conversation"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    }
+}

@@ -139,8 +139,12 @@
                     "title": "How am I protected at work?"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
-                    "title": "Protection charactersitics?"
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Discrimination Examples"
+                },
+                {
+                    "payload": "PROTECTED_CHARACTERSITICS",
+                    "title": "Protected Characteristics"
                 },
                 {
                     "payload": "MAIN_MENU",
@@ -163,8 +167,16 @@
                 "title": "Different types of discrimination?"
             },
             {
-                "payload": "PROTECTION_CHARACTERSITICS",
-                "title": "Protection charactersitics?"
+                "payload": "PROTECTED_AT_WORK",
+                "title": "How am I protected at work?"
+            },
+            {
+                "payload": "DISCRIMINATION_EXAMPLES",
+                "title": "Discrimination Examples"
+            },
+            {
+                "payload": "PROTECTED_CHARACTERSITICS",
+                "title": "Protected Characteristics"
             },
             {
                 "payload": "MAIN_MENU",
@@ -199,8 +211,12 @@
                     "title": "How am I protected at work?"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
-                    "title": "Protection charactersitics?"
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Discrimination Examples"
+                },
+                {
+                    "payload": "PROTECTED_CHARACTERSITICS",
+                    "title": "Protected Characteristics"
                 },
                 {
                     "payload": "MAIN_MENU",
@@ -226,12 +242,16 @@
             "text": "",
             "buttons": [
                 {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Discrimination Examples"
+                },
+                {
                     "payload": "TYPES_OF_DISCRIMINATION",
                     "title": "Different types of discrimination?"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
-                    "title": "Protection charactersitics?"
+                    "payload": "PROTECTED_CHARACTERSITICS",
+                    "title": "Protected Characteristics"
                 },
                 {
                     "payload": "MAIN_MENU",
@@ -246,7 +266,357 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "PROTECTION_CHARACTERSITICS": [
+    "DISCRIMINATION_EXAMPLES": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "DIS_AGE",
+                    "title": "Age"
+                },
+                {
+                    "payload": "DIS_GENDER_REASSIGNMENT",
+                    "title": "Gender reassignment"
+                },
+                {
+                    "payload": "DIS_MARRIED_PARTNERSHIP",
+                    "title": "Being married or in a civil partnership"
+                },
+                {
+                    "payload": "DIS_PREGNANT",
+                    "title": "Being pregnant"
+                },
+                {
+                    "payload": "DIS_RACE",
+                    "title": "Race including colour, nationality, ethnic or national origin"
+                },
+                {
+                    "payload": "DIS_RELIGION",
+                    "title": "Religion or belief"
+                },
+                {
+                    "payload": "DIS_GENDER",
+                    "title": "Gender"
+                },
+                {
+                    "payload": "DIS_SEXUAL_ORIENTATION",
+                    "title": "Sexual orientation"
+                },
+                {
+                    "payload": "DIS_DISABILITY",
+                    "title": "Disability"
+                },
+                {
+                    "payload": "DISCRIMINATION_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_AGE": [
+        {
+            "text": "Each of these examples reflects the ways that age discrimination can occur within different frameworks and helps highlight how laws protect against such treatment."
+        },
+        {
+            "text": "Direct Discrimination: A company refuses to hire someone because they are over 50, assuming they might be less adaptable to new technology, while younger applicants are hired for the same position."
+        },
+        {
+            "text": "Indirect Discrimination: An organization implements a policy that all employees must work late hours, which disproportionately impacts older employees who may have health concerns or responsibilities that make late hours challenging. Although the rule applies to everyone, it unfairly disadvantages older employees."
+        },
+        {
+            "text": "Harrassment: An older employee is frequently subjected to jokes or derogatory comments about their age by coworkers, such as being called \"slow\" or \"outdated.\" This behavior creates an uncomfortable and offensive environment for them."
+        },
+        {
+            "text": "Victimisation: Example: An older employee files a formal complaint about age-related discrimination. Following this, they find themselves being excluded from important meetings and team activities, or overlooked for promotions, as a form of retaliation for raising the complaint.",
+            "buttons": [
+                {
+                    "payload": "AGE",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_GENDER_REASSIGNMENT": [
+        {
+            "text": "These examples illustrate the specific ways in which discrimination related to gender reassignment can occur and the importance of workplace policies to prevent such unfair treatment."
+        },
+        {
+            "text": "Direct: An employer decides not to promote a qualified employee because they are in the process of transitioning. The employer believes clients might be uncomfortable, so they give the promotion to a less qualified colleague instead."
+        },
+        {
+            "text": "Indirect: A workplace has a strict dress code that enforces traditional gender-specific clothing, making it difficult for a transgender employee to dress in a way that aligns with their gender identity. Although the rule applies to everyone, it places transgender employees at a disadvantage."
+        },
+        {
+            "text": "Harassment: A transgender employee is repeatedly subjected to inappropriate questions about their transition by coworkers, or they are called by their previous name (deadnaming) despite their requests not to. This behavior creates a hostile and offensive environment."
+        },
+        {
+            "text": "Victimisation: A transgender employee makes a formal complaint about discriminatory comments made by a colleague. As a result, their supervisor begins to exclude them from team projects or treats them more critically, effectively punishing them for reporting the harassment.",
+            "buttons": [
+                {
+                    "payload": "GENDER_REASSIGNMENT",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_MARRIED_PARTNERSHIP": [
+        {
+            "text": "These examples highlight how discrimination can specifically affect individuals based on their marital or civil partnership status, underscoring the importance of fair treatment regardless of relationship status."
+        },
+        {
+            "text": "Direct Discrimination: A company decides not to send a married employee on an overseas assignment, assuming that they would be unwilling to travel or relocate due to their marital status, while single employees are given such opportunities without question."
+        },
+        {
+            "text": "Indirect Discrimination: A workplace has a policy requiring all employees to be available for late-night networking events. This policy may disadvantage employees who are married or in a civil partnership and may have family commitments, even though the rule applies to everyone."
+        },
+        {
+            "text": "Harrassment: A married employee is frequently subjected to negative comments or jokes by coworkers about their marital status, such as being told they are \"tied down\" or \"boring.\" This unwanted behavior creates an uncomfortable and hostile work environment."
+        },
+        {
+            "text": "Victimisation: An employee in a civil partnership files a complaint after being passed over for a promotion they believe was given to someone single, unfairly. Following this complaint, they find themselves being excluded from important meetings and denied training opportunities, effectively being punished for speaking up.",
+            "buttons": [
+                {
+                    "payload": "MARRIED_OR_PARTNERSHIP",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_PREGNANT": [
+        {
+            "text": "These examples illustrate how discrimination based on pregnancy can manifest in different ways, emphasizing the need for supportive workplace policies and practices."
+        },
+        {
+            "text": "Direct Discrimination: An employer decides not to hire a candidate after finding out she is pregnant, assuming that she will take maternity leave soon and that it will be disruptive to the team. Instead, they hire a less qualified candidate."
+        },
+        {
+            "text": "Indirect Discrimination: A company implements a policy requiring all employees to attend mandatory training sessions at a location with no seating or rest areas. This rule applies to everyone but places pregnant employees at a disadvantage, as they may need more frequent breaks or seating for comfort."
+        },
+        {
+            "text": "Harrassment: A pregnant employee experiences repeated jokes or comments from coworkers, such as \"Are you sure you should be eating that?\" or \"You're going to need a lot of time off, huh?\" These unwanted remarks create a hostile work environment, making the employee feel uncomfortable and isolated."
+        },
+        {
+            "text": "Victimisation: A pregnant employee files a complaint about being excluded from projects since announcing her pregnancy. After this complaint, her manager starts assigning her fewer tasks and excludes her from team meetings as retaliation, treating her unfairly for raising concerns.",
+            "buttons": [
+                {
+                    "payload": "BEING_PREGNANT",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_RACE": [
+        {
+            "text": "These examples illustrate how discrimination based on race, nationality, ethnic, or national origin can occur, underscoring the importance of creating a fair and inclusive work environment that respects diversity."
+        },
+        {
+            "text": "Direct Discrimination: A company decides not to promote an employee of a particular nationality, assuming clients may prefer dealing with someone from a different background. Instead, they promote someone of a different race or nationality who is less qualified for the role."
+        },
+        {
+            "text": "Indirect Discrimination: A workplace has a policy requiring all employees to speak only English at all times, even during breaks. This policy may disadvantage employees whose first language is not English, making it difficult for them to communicate comfortably. Although the rule applies to everyone, it unfairly impacts employees based on their nationality or ethnic background."
+        },
+        {
+            "text": "Harrassment: An employee from a specific ethnic background experiences frequent comments or jokes about their cultural customs, attire, or accent from coworkers, creating an uncomfortable and hostile work environment. This unwanted behavior is linked to their racial or ethnic origin and violates their dignity."
+        },
+        {
+            "text": "Victimisation: An employee of a particular race files a complaint after being subjected to racially insensitive comments by a manager. Following the complaint, the employee is intentionally excluded from important meetings, and their workload is reduced, as a form of retaliation for reporting the discrimination.",
+            "buttons": [
+                {
+                    "payload": "RACE",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_RELIGION": [
+        {
+            "text": "These examples show how discrimination based on religion or belief can manifest in different ways and emphasize the need for accommodations and respect for diverse religious practices in the workplace."
+        },
+        {
+            "text": "Direct Discrimination: An employer decides not to hire a qualified applicant after finding out they are of a particular religious background, assuming that their beliefs might conflict with the company culture. Instead, they hire someone of a different (or no) religion."
+        },
+        {
+            "text": "Indirect Discrimination: A company requires all employees to work on Saturdays. This policy disadvantages employees of certain religious faiths, such as Judaism or Seventh-day Adventism, where Saturday is observed as a day of rest and worship. Although the rule applies to everyone, it places employees with specific religious beliefs at a disadvantage."
+        },
+        {
+            "text": "Harrassment: An employee who wears religious attire, such as a hijab, turban, or yarmulke, is subjected to mocking comments, intrusive questions, or offensive jokes about their religious dress or practices by coworkers. This unwanted behavior creates a hostile and offensive work environment."
+        },
+        {
+            "text": "Victimisation: An employee files a complaint after being pressured by their manager to attend social events that conflict with their religious beliefs. Following the complaint, the manager excludes the employee from important projects and treats them more harshly as a form of retaliation.",
+            "buttons": [
+                {
+                    "payload": "RELIGION",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_GENDER": [
+        {
+            "text": "These examples highlight how discrimination based on gender can occur in various forms, underscoring the need for equal treatment and a respectful workplace environment for all genders."
+        },
+        {
+            "text": "Direct Discrimination: A company prefers to hire men for leadership roles, assuming women are less committed to long-term positions due to potential family responsibilities. As a result, a qualified female candidate is overlooked for a management position in favor of a less qualified male candidate."
+        },
+        {
+            "text": "Indirect Discrimination: A workplace requires all employees to work late evenings or travel frequently, assuming everyone has the flexibility to do so. This policy may disproportionately disadvantage women, especially those who may have primary caregiving responsibilities, although the rule applies to all employees."
+        },
+        {
+            "text": "Harrassment: A female employee is subjected to sexist jokes or inappropriate comments by male colleagues, such as remarks about her appearance or stereotypical assumptions about her abilities based on her gender. This unwanted behavior creates a hostile and offensive work environment."
+        },
+        {
+            "text": "Victimisation: A female employee is subjected to sexist jokes or inappropriate comments by male colleagues, such as remarks about her appearance or stereotypical assumptions about her abilities based on her gender. This unwanted behavior creates a hostile and offensive work environment.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_SEXUAL_ORIENTATION": [
+        {
+            "text": "These examples highlight the ways in which discrimination based on sexual orientation can manifest and the importance of fostering a supportive and inclusive workplace for all orientations."
+        },
+        {
+            "text": "Direct Discrimination: A qualified candidate is not hired for a position after the employer learns they are gay, based on the assumption that clients might not respond well. Instead, the employer hires a heterosexual candidate with fewer qualifications for the role."
+        },
+        {
+            "text": "Indirect Discrimination: A company frequently hosts family-oriented social events but only openly acknowledges heterosexual spouses or partners. This can create an environment where employees in same-sex relationships feel excluded or pressured to keep their relationship private, even though the events are intended for all employees."
+        },
+        {
+            "text": "Harrassment: An employee is repeatedly subjected to jokes, stereotypes, or offensive comments about their sexual orientation by colleagues, such as being told they \"don't look gay\" or hearing derogatory terms. These comments create a hostile and offensive environment, violating the employee's dignity."
+        },
+        {
+            "text": "Victimisation: An employee files a complaint after experiencing discrimination based on their sexual orientation. Following this, their manager and colleagues begin to exclude them from team meetings and treat them with increased hostility, effectively punishing them for speaking up about the discrimination.",
+            "buttons": [
+                {
+                    "payload": "SEXUAL_ORIENTATION",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIS_DISABILITY": [
+        {
+            "text": "These examples highlight the types of discrimination that individuals with disabilities may face, emphasizing the importance of inclusive practices and reasonable adjustments in the workplace."
+        },
+        {
+            "text": "Direct Discrimination: A qualified candidate with a visible disability is rejected for a customer-facing role because the employer assumes customers may feel uncomfortable. Instead, they hire someone without a disability, even though the candidate was well-suited for the job."
+        },
+        {
+            "text": "Indirect Discrimination: A company implements a policy requiring all employees to work from the office five days a week, which may disadvantage employees with disabilities who need flexibility for medical appointments or may work better from home due to accessibility issues. Although the rule applies to everyone, it places disabled employees at a disadvantage."
+        },
+        {
+            "text": "Harrassment: An employee with a disability is repeatedly subjected to derogatory comments or jokes about their condition, such as being called \"slow\" or being asked if they need \"special treatment.\" These comments create a hostile and offensive work environment, impacting their dignity."
+        },
+        {
+            "text": "Victimisation: An employee with a disability requests reasonable adjustments, such as an ergonomic chair, to accommodate their condition. After filing a formal request, their manager begins to criticize their work more harshly and excludes them from team activities, effectively punishing them for advocating for their rights.",
+            "buttons": [
+                {
+                    "payload": "DISABILITY",
+                    "title": "Solutions"
+                },
+                {
+                    "payload": "DISCRIMINATION_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PROTECTED_CHARACTERSITICS": [
         {
             "text": "",
             "buttons": [
@@ -273,6 +643,10 @@
                 {
                     "payload": "RELIGION",
                     "title": "Religion or belief"
+                },
+                {
+                    "payload": "GENDER",
+                    "title": "Gender"
                 },
                 {
                     "payload": "SEX",
@@ -331,7 +705,7 @@
                     "title": "Employment Tribunal"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -469,39 +843,39 @@
             "text": "Here are some initial solutions the older employee could consider:",
             "buttons": [
                 {
-                    "payload": "GENDER_RAISE_INFORMAL_COMPLAINT",
+                    "payload": "REASSIGNMENT_RAISE_INFORMAL_COMPLAINT",
                     "title": "Raise an Informal Complaint"
                 },
                 {
-                    "payload": "GENDER_FILE_FORMAL_GRIEVANCE",
+                    "payload": "REASSIGNMENT_FILE_FORMAL_GRIEVANCE",
                     "title": "File a Formal Grievance"
                 },
                 {
-                    "payload": "GENDER_REQUEST_TRAINING",
+                    "payload": "REASSIGNMENT_REQUEST_TRAINING",
                     "title": "Request Anti-Harassment Training and Policies"
                 },
                 {
-                    "payload": "GENDER_SEEK_SUPPORT",
+                    "payload": "REASSIGNMENT_SEEK_SUPPORT",
                     "title": "Seek Support from a Trade Union or Employee Assistance Programs"
                 },
                 {
-                    "payload": "GENDER_CONSULT_ACAS",
+                    "payload": "REASSIGNMENT_CONSULT_ACAS",
                     "title": "Consult ACAS (Advisory, Conciliation and Arbitration Service)"
                 },
                 {
-                    "payload": "GENDER_EARLY_CONCILIATION",
+                    "payload": "REASSIGNMENT_EARLY_CONCILIATION",
                     "title": "Early Conciliation and Employment Tribunal"
                 },
                 {
-                    "payload": "GENDER_CONSIDER_LEGAL_ACTION",
+                    "payload": "REASSIGNMENT_CONSIDER_LEGAL_ACTION",
                     "title": "Consider Legal Action for Constructive Dismissal (if applicable)"
                 },
                 {
-                    "payload": "GENDER_IMPLEMENT_CHANGES",
+                    "payload": "REASSIGNMENT_IMPLEMENT_CHANGES",
                     "title": "Implement Workplace Changes"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -517,7 +891,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_RAISE_INFORMAL_COMPLAINT": [
+    "REASSIGNMENT_RAISE_INFORMAL_COMPLAINT": [
         {
             "text": "The first step might be to raise an informal complaint with management or HR. This could involve discussing the issue directly with a line manager or an HR representative to ensure the company understands the seriousness of the situation and has a chance to resolve it without formal action.",
             "buttons": [
@@ -538,7 +912,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_FILE_FORMAL_GRIEVANCE": [
+    "REASSIGNMENT_FILE_FORMAL_GRIEVANCE": [
         {
             "text": "If informal resolution doesn't work or if the harassment persists, the employee can submit a formal grievance in writing. A formal grievance should detail:"
         },
@@ -571,7 +945,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_REQUEST_TRAINING": [
+    "REASSIGNMENT_REQUEST_TRAINING": [
         {
             "text": "The employee could request that the company implement specific policies to prevent harassment related to gender identity. This might include:"
         },
@@ -604,12 +978,12 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_SEEK_SUPPORT": [
+    "REASSIGNMENT_SEEK_SUPPORT": [
         {
             "text": "If the employee is a member of a trade union, they can approach their representative for support and advice. The union can advocate on their behalf during meetings and help in raising grievances. Additionally, some companies offer Employee Assistance Programs (EAPs), which can provide mental health support and guidance on handling workplace issues.",
             "buttons": [
                 {
-                    "payload": "GENDER_REASSIGNMENT",
+                    "payload": "RGENDER_REASSIGNMENT",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -625,7 +999,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_CONSULT_ACAS": [
+    "REASSIGNMENT_CONSULT_ACAS": [
         {
             "text": "If the employer fails to address the situation adequately, the employee can seek advice from ACAS, which provides free, impartial advice on employment rights and resolving workplace disputes. ACAS may also be able to facilitate mediation between the employee and the employer.",
             "buttons": [
@@ -646,7 +1020,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_EARLY_CONCILIATION": [
+    "REASSIGNMENT_EARLY_CONCILIATION": [
         {
             "text": "If the issue remains unresolved, the employee can notify ACAS to begin Early Conciliation, a mandatory step before taking legal action. Early Conciliation offers an opportunity to resolve the issue without going to a tribunal."
         },
@@ -670,7 +1044,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_CONSIDER_LEGAL_ACTION": [
+    "REASSIGNMENT_CONSIDER_LEGAL_ACTION": [
         {
             "text": "If the work environment becomes intolerable due to management's failure to act and harassment continues, the employee might also consider a constructive dismissal claim. This would involve resigning and arguing that the employer's failure to provide a safe, non-hostile work environment amounts to a breach of contract.",
             "buttons": [
@@ -691,7 +1065,7 @@
             "inputPrompt": "Select an option"
         }
     ],
-    "GENDER_IMPLEMENT_CHANGES": [
+    "REASSIGNMENT_IMPLEMENT_CHANGES": [
         {
             "text": "If management responds positively, they should:"
         },
@@ -764,7 +1138,7 @@
                     "title": "Request a Policy Review"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -1008,7 +1382,7 @@
                     "title": "Encourage Clear Communication"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -1303,7 +1677,7 @@
                     "title": "Consider Reporting to an External Regulatory Body"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -1588,7 +1962,7 @@
                     "title": "Encourage Inclusive Workplace Policies"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -1814,6 +2188,280 @@
             "inputPrompt": "Select an option"
         }
     ],
+    "GENDER": [
+        {
+            "text": "Under UK law, the Equality Act 2010 and the Equal Pay Act 1970 ensure that men and women are entitled to equal pay for equal work or work of equal value. The fact that a female employee receives less pay than her male counterparts for the same role and responsibilities, and is dismissed with a statement such as 'men are the primary earners,' likely constitutes direct sex discrimination and unequal pay. This is unlawful."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "GENDER_REQUEST_REVIEW",
+                    "title": "Request a Salary Review and Pay Comparison"
+                },
+                {
+                    "payload": "GENDER_SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "GENDER_REFER_POLICY",
+                    "title": "Refer to the Employer's Equal Pay Policy"
+                },
+                {
+                    "payload": "GENDER_REQUEST_EVALUATION",
+                    "title": "Request a Job Evaluation"
+                },
+                {
+                    "payload": "GENDER_SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union"
+                },
+                {
+                    "payload": "GENDER_CONSULT_EXTERNAL",
+                    "title": "Consult External Bodies for Advice"
+                },
+                {
+                    "payload": "GENDER_ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "GENDER_EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "GENDER_REQUEST_PAY_GAP_DATA",
+                    "title": "Request Gender Pay Gap Data"
+                },
+                {
+                    "payload": "GENDER_ENCOURAGE_AUDITS",
+                    "title": "Encourage Equal Pay Audits"
+                },
+                {
+                    "payload": "PROTECTED_CHARACTERSITICS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_REQUEST_REVIEW": [
+        {
+            "text": "The employee should first request a salary review from HR or her line manager, asking for a clear explanation of why her pay is lower than her male colleagues despite having the same role and responsibilities. The employee can also ask for pay comparison data, specifically looking at the pay of male counterparts performing the same or comparable work.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the request for a salary review or explanation is dismissed, the employee can file a formal grievance. In this grievance, the employee should: Detail the issue of unequal pay. Provide examples or evidence that her male counterparts are receiving more pay for the same work. Mention the dismissive response about \"men being the primary earners,\" highlighting that this is direct sex discrimination. Reference the Equal Pay Act 1970 and the Equality Act 2010, which guarantee equal pay for equal work. The employer is required to investigate the grievance and address any unlawful pay practices.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_REFER_POLICY": [
+        {
+            "text": "The employee can review the company's equal pay policy, if it exists. Many employers have specific policies to ensure that pay practices comply with UK law. If such a policy is in place but not being followed, the employee can point this out in her grievance. If there is no such policy, the employee can suggest that the company develop and implement one to prevent further discrepancies.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_REQUEST_EVALUATION": [
+        {
+            "text": "The employee can request that a job evaluation be conducted to formally assess whether her role is of equal value to those of her male colleagues. A job evaluation is a structured process that assesses the content of the role, skills required, responsibilities, and working conditions to ensure that pay is based on objective criteria rather than gender.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, she can seek advice and support from her union representative. Trade unions can provide valuable assistance in filing grievances, negotiating pay, and representing the employee in discussions with management. Some unions also have the legal resources to help file equal pay claims.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_CONSULT_EXTERNAL": [
+        {
+            "text": "The employee could seek external advice from organizations such as ACAS (Advisory, Conciliation and Arbitration Service), which provides free and impartial advice on employment rights, including issues related to equal pay and sex discrimination. Equality and Human Rights Commission (EHRC) is another organization that provides support and can investigate complaints related to sex discrimination and unequal pay.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_ACAS_CONCILIATION": [
+        {
+            "text": "If the employer does not address the grievance adequately, the employee can notify ACAS and start the Early Conciliation process. This is a mandatory step before filing a legal claim and provides an opportunity to settle the issue without going to court. ACAS will mediate between the employee and employer to try to reach a fair resolution.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If Early Conciliation does not resolve the issue, the employee can file a claim with the Employment Tribunal for sex discrimination and unequal pay under the Equality Act 2010 and the Equal Pay Act 1970. The claim must typically be submitted within six months of the last discriminatory pay period. In a tribunal, the employee can seek: Back pay for the difference in wages. Compensation for any financial loss or emotional distress caused by the unequal treatment.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_REQUEST_PAY_GAP_DATA": [
+        {
+            "text": "Under the Equality Act 2010 (Gender Pay Gap Information) Regulations 2017, companies with 250 or more employees are required to publish their gender pay gap data. Although this data will not provide individual salary information, it can indicate whether a broader pay disparity exists within the company. The employee can use this data to strengthen her case, showing that pay disparities may be systemic.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_ENCOURAGE_AUDITS": [
+        {
+            "text": "The employee could also suggest that the employer conduct an equal pay audit. This is a formal review of pay practices to ensure that men and women are paid equally for equal work. Equal pay audits help companies comply with legal obligations and identify any gender pay gaps or disparities that need to be corrected.",
+            "buttons": [
+                {
+                    "payload": "GENDER",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
     "SEX": [
         {
             "text": "Under UK law, the Equality Act 2010 and the Equal Pay Act 1970 ensure that men and women are entitled to equal pay for equal work or work of equal value. The fact that a female employee receives less pay than her male counterparts for the same role and responsibilities, and is dismissed with a statement such as 'men are the primary earners,' likely constitutes direct sex discrimination and unequal pay. This is unlawful."
@@ -1865,7 +2513,7 @@
                     "title": "Encourage Equal Pay Audits"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -2135,7 +2783,7 @@
                     "title": "Promote an Inclusive Workplace Culture"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -2388,7 +3036,7 @@
                     "title": "Clarify that Working from Home Should Be Voluntary"
                 },
                 {
-                    "payload": "PROTECTION_CHARACTERSITICS",
+                    "payload": "PROTECTED_CHARACTERSITICS",
                     "title": "Back to Previous Menu"
                 },
                 {
@@ -2685,14 +3333,1257 @@
     ],
     "INTERSECTIONALITY": [],
     "NEURODIVERSITY": [],
-    "RACISM": [],
+    "RACISM": [
+        {
+            "text": "<b>History:</b> Race is a complex area, especially as it was constructed specifically and purposefully to justify the barbarity of the African Holocaust of chattel, colonial and neo-colonial enslavement (known in Swahili as Maangamizi) that devastated between 9.6 and 15  million African people across several centuries. The concept of white supremacy and therefore Black/African inferiority gave rise to the white supremist systems that still govern the majority of global society today."
+        },
+        {
+            "text": "<b>Racism</b> at work is far more insidious than using the 'N' word. There are different, more sophisticated types of racism that can leave victims second guessing, doubting and struggling to articulate the type of behaviour they are experiencing. These explanations will give  clarity to anyone who visits this area."
+        },
+        {
+            "text": "Racism refers to prejudice, discrimination, or antagonism directed against someone of a different race based on the belief that one's own race is superior. It operates on individual, institutional, and systemic levels, and it can target any racial or ethnic group.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Different types of racism?"
+                },
+                {
+                    "payload": "DIFFERENC_ANTIBLACKNESS_AND_RACISM",
+                    "title": "What is the difference between anti-Blackness and racism?"
+                },
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "What are some examples of racism in the workplace?"
+                },
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "What are some of the impacts of racism on mental health?"
+                },
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Racism Solutions"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "TYPES_OF_RACISM": [
+        {
+            "text": "Racism manifests in various forms and operates at different levels, affecting individuals and in distinct ways. Here are the key types of racism:"
+        },
+        {
+            "text": "Select to know more about each type of racism",
+            "buttons": [
+                {
+                    "payload": "INDIVIDUAL_RACISM",
+                    "title": "1. Individual Racism (Personal Racism)"
+                },
+                {
+                    "payload": "INSTITUTIONAL_RACISM",
+                    "title": "2. Institutional Racism (Systemic Racism)"
+                },
+                {
+                    "payload": "STRUCTURAL_RACISM",
+                    "title": "3. Structural Racism"
+                },
+                {
+                    "payload": "CULTURAL_RACISM",
+                    "title": "4. Cultural Racism"
+                },
+                {
+                    "payload": "INTERPERSONAL_RACISM",
+                    "title": "5. Interpersonal Racism"
+                },
+                {
+                    "payload": "INTERNALIZED_RACISM",
+                    "title": "6. Internalized Racism"
+                },
+                {
+                    "payload": "ENVIRONMENTAL_RACISM",
+                    "title": "7. Environmental Racism"
+                },
+                {
+                    "payload": "COLORISM",
+                    "title": "8. Colorism"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INDIVIDUAL_RACISM": [
+        {
+            "text": "This form of racism refers to an individual's beliefs, attitudes, or actions that support racial prejudice or discrimination. It often involves personal biases or stereotypes that people hold against others based on their race or ethnicity."
+        },
+        {
+            "text": "Examples: Racial slurs, hate speech, discriminatory behavior, or believing in the superiority of one race over another.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INSTITUTIONAL_RACISM": [
+        {
+            "text": "Institutional racism occurs when policies, practices, and structures within institutions (such as governments, corporations, schools, or healthcare systems) create advantages for one racial group while disadvantaging others. This type of racism is embedded in the laws, rules, and norms of society."
+        },
+        {
+            "text": "Examples: Racial disparities in the criminal justice system, unequal access to quality education, discriminatory hiring practices, or biased healthcare services.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "STRUCTURAL_RACISM": [
+        {
+            "text": "Structural racism refers to the overarching system of racial inequality that is built into society's institutions and social, economic, and political structures. It includes the cumulative effects of historical, institutional, and social racism that collectively disadvantage racial minorities."
+        },
+        {
+            "text": "Examples: Long-standing economic inequality between racial groups, intergenerational poverty linked to racial discrimination, and gentrification disproportionately displacing communities of color.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "CULTURAL_RACISM": [
+        {
+            "text": "Cultural racism refers to the imposition of the dominant group's culture as superior while devaluing the cultural norms, practices, or contributions of other racial or ethnic groups. It reinforces the idea that certain cultural practices, beliefs, or languages are inferior."
+        },
+        {
+            "text": "Examples: Media portrayal of certain racial groups as primitive or uncivilized, cultural appropriation without recognition, or promoting stereotypes about \"normal\" beauty standards tied to whiteness.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INTERPERSONAL_RACISM": [
+        {
+            "text": "Interpersonal racism refers to direct interactions between individuals that perpetuate racial inequality or discrimination. It occurs in face-to-face situations and can manifest as microaggressions, harassment, or overtly hostile actions."
+        },
+        {
+            "text": "Examples: A person being followed in a store due to their race, racist jokes, or workplace harassment targeting someone's race or ethnicity.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INTERNALIZED_RACISM": [
+        {
+            "text": "Internalized racism occurs when members of a marginalized racial group begin to believe and accept the negative messages and stereotypes about their own race. This can lead to feelings of inferiority, self-hatred, or rejection of their own cultural heritage."
+        },
+        {
+            "text": "Examples: A person of color denying their own racial identity, adopting harmful stereotypes about their own race, or feeling shame about their background or appearance.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ENVIRONMENTAL_RACISM": [
+        {
+            "text": "Environmental racism refers to the disproportionate impact of environmental hazards on people of colour. It includes the placement of toxic waste facilities, pollution sources, or dangerous industries near marginalized communities, often as a result of discriminatory policies."
+        },
+        {
+            "text": "Examples: Low-income neighborhoods, often home to people of color, being situated near landfills, industrial plants, or areas prone to environmental disasters.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "COLORISM": [
+        {
+            "text": "Colorism is discrimination based on skin tone, where lighter-skinned individuals within the same racial or ethnic group are often treated more favourably than those with darker skin. It operates both within racial groups and in broader society."
+        },
+        {
+            "text": "Examples: Preferential treatment of lighter-skinned individuals in beauty standards, employment opportunities, or social settings.",
+            "buttons": [
+                {
+                    "payload": "TYPES_OF_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DIFFERENC_ANTIBLACKNESS_AND_RACISM": [
+        {
+            "text": "The concepts of racism and anti-Blackness are related but distinct, with anti-Blackness being a specific form of racism that focuses on the unique and pervasive discrimination faced by Black people."
+        },
+        {
+            "text": "Select option to know more",
+            "buttons": [
+                {
+                    "payload": "ANTI_BLACKNESS_CONCEPT",
+                    "title": "Anti Blackness"
+                },
+                {
+                    "payload": "FORMS_ANTI_BLACKNESS",
+                    "title": "Forms of Anti-Blackness"
+                },
+                {
+                    "payload": "KEY_DIFFERENCES",
+                    "title": "Key Differences"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ANTI_BLACKNESS_CONCEPT": [
+        {
+            "text": "Anti-Blackness refers to the specific dehumanization, hostility, and systemic discrimination targeted at Black people. It includes the explicit denigration of Blackness and the deep-seated societal belief in the inferiority of Black people."
+        },
+        {
+            "text": "Scope: Anti-Blackness is a distinct and more extreme form of racism that is centred around the marginalization and oppression of Black people. It has roots in the history of slavery, colonialism, segregation, and ongoing practices that specifically devalue Black life and culture.",
+            "buttons": [
+                {
+                    "payload": "DIFFERENC_ANTIBLACKNESS_AND_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "FORMS_ANTI_BLACKNESS": [
+        {
+            "text": "Overt Anti-Blackness: Direct expressions of hatred, violence, or hostility toward Black people (e.g., racial slurs, police brutality, mass incarceration). Covert Anti-Blackness: More subtle forms of bias and systemic exclusion, such as media portrayals that reinforce negative stereotypes about Black people or institutional practices that disproportionately harm Black communities (e.g., discriminatory lending practices, underfunding of predominantly Black schools)."
+        },
+        {
+            "text": "Cultural and Historical Context: Anti-Blackness is deeply embedded in the history of The African Holocaust of Transatlantic enslavement, colonialism, and white supremacy, creating unique forms of suffering and oppression for Black people across the world.",
+            "buttons": [
+                {
+                    "payload": "DIFFERENC_ANTIBLACKNESS_AND_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "KEY_DIFFERENCES": [
+        {
+            "text": "Racism is a broad term that encompasses all forms of racial prejudice and discrimination affecting various racial and ethnic groups, while anti-Blackness specifically refers to the unique discrimination and hostility directed toward Black people."
+        },
+        {
+            "text": "Anti-Blackness involves a specific dehumanization of Black people, rooted in the historical context of slavery, segregation, and systemic violence that has been directed toward Black communities over centuries. It reflects not just racial bias but the pervasive belief that Blackness itself is inferior or problematic."
+        },
+        {
+            "text": "Racism toward other groups (e.g., anti-Asian racism, anti-Indigenous racism) can have similar patterns of discrimination but does not carry the same historical and cultural weight as anti-Blackness, which is marked by the specific brutality and dehumanization experienced by Black people globally."
+        },
+        {
+            "text": "Conclusion: While racism refers to discrimination against any racial or ethnic group, anti-Blackness is a specific form of racism that uniquely targets Black people, often manifesting as deeper and more explicit forms of oppression. It focuses not just on prejudice but on the systemic and historical efforts to devalue Black life.",
+            "buttons": [
+                {
+                    "payload": "DIFFERENC_ANTIBLACKNESS_AND_RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACISM_WORKPLACE_EXAMPLES": [
+        {
+            "text": "Some examples of racism in the workplace",
+            "buttons": [
+                {
+                    "payload": "HIRING_DISCRIMINATION",
+                    "title": "Hiring Discrimination"
+                },
+                {
+                    "payload": "UNEQUAL_PAY_PROMOTION",
+                    "title": "Unequal Pay and Promotion Opportunities"
+                },
+                {
+                    "payload": "HOSTILE_WORK_ENVIRONMENT",
+                    "title": "Hostile Work Environment"
+                },
+                {
+                    "payload": "TASK_DISCRIMINATION",
+                    "title": "Discrimination in Assigning Tasks or Responsibilities"
+                },
+                {
+                    "payload": "WORKPLACE_EXCLUSION",
+                    "title": "Exclusion from Informal Networks"
+                },
+                {
+                    "payload": "UNEQUAL_DISCIPLINE",
+                    "title": "Unequal Disciplinary Action"
+                },
+                {
+                    "payload": "TOKENISM",
+                    "title": "Tokenism"
+                },
+                {
+                    "payload": "RACIAL_STEREOTYPING",
+                    "title": "Stereotyping and Assumptions Based on Race"
+                },
+                {
+                    "payload": "LEADERSHIP_DIVERSITY",
+                    "title": "Lack of Diversity in Leadership"
+                },
+                {
+                    "payload": "CULTURAL_INSENSITIVITY",
+                    "title": "Cultural Invisibility or Insensitivity"
+                },
+                {
+                    "payload": "MICROAGGRESSIONS",
+                    "title": "Microaggressions"
+                },
+                {
+                    "payload": "COMPLAINT_HANDLING",
+                    "title": "Failure to Address Complaints of Racism"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "HIRING_DISCRIMINATION": [
+        {
+            "text": "Example: Qualified candidates of color may be overlooked for jobs because of racial bias in recruitment. This could involve rejecting applicants with names that are perceived as being from a certain ethnic group (e.g., studies have shown that \"ethnic-sounding\" names may be less likely to get callbacks for interviews compared to \"white-sounding\" names with the same qualifications)."
+        },
+        {
+            "text": "How to recognise it: Racial bias in résumé screening, interviews, or biased questions that disproportionately disadvantage racial minorities.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "UNEQUAL_PAY_PROMOTION": [
+        {
+            "text": "Example: Employees of color, particularly Black or Latino workers, are often paid less than their white counterparts for doing the same job, or they may have fewer opportunities for promotions or career advancement."
+        },
+        {
+            "text": "How to recognise it: Fewer Black and minority employees in leadership or management roles despite equal qualifications and experience, or racial pay gaps where employees of color earn significantly less than their peers.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "HOSTILE_WORK_ENVIRONMENT": [
+        {
+            "text": "Example: Employees experiencing racial slurs, offensive jokes, or being subjected to racial stereotypes. This can create a toxic and unwelcoming environment for employees of color."
+        },
+        {
+            "text": "How to recognise it: Racial jokes, microaggressions, derogatory comments about an employee's race, or cultural background. This can include inappropriate remarks, comments about appearance, accents, or questioning an employee's qualifications based on their race.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "TASK_DISCRIMINATION": [
+        {
+            "text": "Example: Employees of color may be given less desirable or lower-visibility tasks, while their white colleagues receive more prestigious or career-advancing assignments. This form of racial discrimination can prevent employees from accessing opportunities that would lead to professional growth."
+        },
+        {
+            "text": "How to recognise it: Racially biased decisions about task delegation or exclusion of minority employees from key projects or client-facing roles.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "WORKPLACE_EXCLUSION": [
+        {
+            "text": "Example: Employees of color may be excluded from informal networks, social gatherings, or mentorship opportunities that are critical for career development. These networks often give employees access to information, mentorship, and advancement opportunities."
+        },
+        {
+            "text": "How to recognise it: Being left out of after-work gatherings, team-building events, or mentorship programs that benefit white employees, leading to fewer opportunities for growth and advancement.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "UNEQUAL_DISCIPLINE": [
+        {
+            "text": "Example: Employees of color may be disciplined more harshly than their white peers for the same infractions or mistakes. This can include being written up, demoted, or even terminated for actions that are overlooked or forgiven when committed by white employees."
+        },
+        {
+            "text": "How to recognise it: Disproportionate punishment, selective enforcement of workplace rules, or unequal treatment in performance reviews.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "TOKENISM": [
+        {
+            "text": "Example: Hiring a small number of employees of color and placing them in highly visible positions to give the appearance of diversity, without offering them real power or influence. Tokenism often comes with the expectation that the individual will represent their entire racial group, leading to isolation and increased pressure."
+        },
+        {
+            "text": "How to recognise it: One or two minority employees are hired as a \"diversity\" symbol, but they are not included in decision-making processes or given meaningful roles within the organization.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACIAL_STEREOTYPING": [
+        {
+            "text": "Example: Assuming that certain employees are naturally suited for certain types of work based on their race or ethnicity, such as assuming Black employees should handle physical or labor-intensive tasks, or assuming Asian employees are naturally suited for technical or mathematical work."
+        },
+        {
+            "text": "How to recognise it: Limiting career opportunities based on racial stereotypes or making assumptions about an employee's abilities or interests based on their race.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "LEADERSHIP_DIVERSITY": [
+        {
+            "text": "Example: A workplace that has predominantly white leadership and fails to promote employees of color into leadership positions, reflecting institutional racism. This lack of diversity often leads to policies, cultures, and decisions that fail to reflect the needs of a diverse workforce."
+        },
+        {
+            "text": "How to recognise it: An executive team or board with little to no racial diversity, leading to a lack of representation and voice for minority employees in decision-making.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "CULTURAL_INSENSITIVITY": [
+        {
+            "text": "Example: Failing to recognize or accommodate cultural or religious practices of employees of color, such as not providing time off for cultural or religious holidays, or dismissing cultural expressions (e.g., hairstyles, attire) as \"unprofessional.\""
+        },
+        {
+            "text": "How to recognise it: Policies that prohibit natural Black hairstyles like Afros or braids, ignoring religious or cultural dress codes, or creating workplace standards based on white or Western norms of professionalism.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MICROAGGRESSIONS": [
+        {
+            "text": "Example: Small, often subtle behaviors or comments that, whether intentional or unintentional, demean or alienate employees of color. These can be everyday slights, indignities, or insults that communicate hostile, derogatory, or negative racial messages."
+        },
+        {
+            "text": "How to recognise it: Statements like \"You speak so well for a [insert race],\" or \"Where are you really from?\", or constant mispronouncing of a person's name.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "COMPLAINT_HANDLING": [
+        {
+            "text": "Example: When employees report instances of racism or discrimination, but their complaints are ignored, dismissed, or not taken seriously by HR or management, it signals that the workplace does not prioritize addressing racism."
+        },
+        {
+            "text": "How to recognise it: Lack of investigation into claims of racism or retaliation against employees who report racial discrimination.",
+            "buttons": [
+                {
+                    "payload": "RACISM_WORKPLACE_EXAMPLES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACISM_MENTAL_HEALTH_IMPACTS": [
+        {
+            "text": "Racism can have profound and long-lasting impacts on mental health, affecting individuals' emotional well-being, self-esteem, and overall quality of life. These effects can be experienced through both direct acts of racism, such as discrimination or racial violence, and indirect, systemic forms, such as institutionalized racism and racial inequality.",
+            "buttons": [
+                {
+                    "payload": "CHRONIC_STRESS",
+                    "title": "Chronic Stress and Anxiety"
+                },
+                {
+                    "payload": "DEPRESSION",
+                    "title": "Depression"
+                },
+                {
+                    "payload": "LOW_SELF_ESTEEM",
+                    "title": "Low Self-Esteem and Internalized Racism"
+                },
+                {
+                    "payload": "PTSD",
+                    "title": "Post-Traumatic Stress Disorder (PTSD)"
+                },
+                {
+                    "payload": "RACIAL_TRAUMA",
+                    "title": "Racial Trauma"
+                },
+                {
+                    "payload": "SOCIAL_ISOLATION",
+                    "title": "Social Isolation and Loneliness"
+                },
+                {
+                    "payload": "ANGER_RESENTMENT",
+                    "title": "Anger and Resentment"
+                },
+                {
+                    "payload": "IMPOSTER_SYNDROME",
+                    "title": "Imposter Syndrome"
+                },
+                {
+                    "payload": "SUBSTANCE_ABUSE",
+                    "title": "Substance Abuse and Self-Medicating Behaviors"
+                },
+                {
+                    "payload": "SUICIDAL_IDEATION",
+                    "title": "Suicidal Ideation and Self-Harm"
+                },
+                {
+                    "payload": "PHYSICAL_HEALTH",
+                    "title": "Impact on Physical Health"
+                },
+                {
+                    "payload": "MENTAL_HEALTH_BARRIERS",
+                    "title": "Barriers to Seeking Mental Health Support"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "CHRONIC_STRESS": [
+        {
+            "text": "Impact: Individuals who experience racism may develop chronic stress as they constantly navigate environments where they feel unwelcome, unsafe, or marginalized. This stress can result in anxiety, hypervigilance, and a constant sense of worry."
+        },
+        {
+            "text": "Symptoms: Racing thoughts, irritability, nervousness, and difficulty relaxing due to fear of discrimination or prejudice. Stress from anticipating or dealing with racism is sometimes referred to as \"racial battle fatigue.\"",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DEPRESSION": [
+        {
+            "text": "Impact: Repeated exposure to racism can lead to feelings of hopelessness, sadness, and a lack of self-worth, all of which are characteristic of depression. The devaluation of one's identity due to race can be deeply harmful."
+        },
+        {
+            "text": "Symptoms: Persistent feelings of sadness, lack of energy, loss of interest in activities, changes in sleep or appetite, and feelings of worthlessness.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "LOW_SELF_ESTEEM": [
+        {
+            "text": "Impact: Continuous exposure to negative stereotypes and messages about one's race can lead to internalized racism, where individuals begin to believe and accept those harmful ideas. This can contribute to low self-esteem, self-doubt, and feelings of inadequacy."
+        },
+        {
+            "text": "Symptoms: Negative self-talk, feeling inferior to others, rejecting one's own racial or cultural identity, and self-hatred.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PTSD": [
+        {
+            "text": "Impact: Experiencing or witnessing racially motivated violence, harassment, or other traumatic events can lead to PTSD. Victims of racial violence or intense racial discrimination may relive those experiences and face difficulties in their daily lives."
+        },
+        {
+            "text": "Symptoms: Flashbacks, nightmares, avoidance of situations that remind the person of the trauma, emotional numbness, and increased arousal (e.g., trouble sleeping, irritability).",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACIAL_TRAUMA": [
+        {
+            "text": "Impact: Racial trauma (or race-based traumatic stress) refers to the cumulative effects of experiencing racism over time. Unlike PTSD, which is typically tied to a single event, racial trauma results from chronic exposure to racism, discrimination, and microaggressions."
+        },
+        {
+            "text": "Symptoms: Similar to PTSD, including hypervigilance, emotional distress, avoidance behaviors, and feelings of being unsafe in public or work settings.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SOCIAL_ISOLATION": [
+        {
+            "text": "Impact: Racism can lead to social exclusion, where individuals feel isolated or ostracized due to their race or ethnicity. This can make it difficult for individuals to form social connections, leading to feelings of loneliness and a lack of support."
+        },
+        {
+            "text": "Symptoms: Withdrawal from social interactions, reluctance to engage with others, and feelings of being misunderstood or unaccepted by peers or colleagues.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ANGER_RESENTMENT": [
+        {
+            "text": "Impact: Experiencing racism can provoke feelings of anger and frustration, especially when individuals feel powerless to challenge or change the systemic or everyday racism they encounter. This anger can sometimes lead to aggression or self-destructive behavior."
+        },
+        {
+            "text": "Symptoms: Irritability, outbursts of anger, or internalizing anger in ways that cause emotional distress or physical health problems.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "IMPOSTER_SYNDROME": [
+        {
+            "text": "Impact: People of color in predominantly white or non-diverse spaces may feel like they do not belong or that their success is undeserved, even when they are highly qualified. This is especially common when racial stereotypes suggest that they are less capable."
+        },
+        {
+            "text": "Symptoms: Doubting one's abilities, feeling like a fraud, and attributing achievements to luck rather than merit.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SUBSTANCE_ABUSE": [
+        {
+            "text": "Impact: Individuals dealing with the mental health effects of racism may turn to alcohol, drugs, or other forms of self-medication to cope with feelings of stress, anxiety, or depression."
+        },
+        {
+            "text": "Symptoms: Increased reliance on alcohol, drugs, or risky behaviors to manage or suppress emotional pain caused by racism.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SUICIDAL_IDEATION": [
+        {
+            "text": "Impact: In extreme cases, chronic exposure to racism can contribute to suicidal thoughts or self-harm, especially when individuals feel overwhelmed by the dehumanization and isolation that racism can create."
+        },
+        {
+            "text": "Symptoms: Thoughts or plans of suicide, engaging in self-harm behaviours, or talking about feeling worthless or wanting to die.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PHYSICAL_HEALTH": [
+        {
+            "text": "Impact: The chronic stress associated with racism can also lead to physical health problems, such as high blood pressure, cardiovascular disease, and immune system dysfunction. This is because the body's stress response is activated constantly, contributing to a variety of health issues."
+        },
+        {
+            "text": "Symptoms: Headaches, digestive problems, fatigue, increased blood pressure, and other stress-related illnesses.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MENTAL_HEALTH_BARRIERS": [
+        {
+            "text": "Impact: Racism in the healthcare system can create barriers to accessing mental health care. People of color may feel mistrustful of healthcare providers or may not have access to culturally competent care, leading to untreated mental health conditions."
+        },
+        {
+            "text": "Symptoms: Reluctance to seek therapy or counseling, lack of mental health care access, or feeling that mental health professionals do not understand or take their experiences of racism seriously.",
+            "buttons": [
+                {
+                    "payload": "RACISM_MENTAL_HEALTH_IMPACTS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACISM_SOLUTIONS": [
+        {
+            "text": "Under UK law, the Equality Act 2010 prohibits discrimination, harassment, and victimisation based on race, which includes color, nationality, ethnic, or national origin. Subjecting someone of Middle Eastern descent to offensive \"jokes\" about terrorism or excluding them from client meetings due to fears about \"security concerns\" could constitute direct race discrimination and racial harassment."
+        },
+        {
+            "text": "Here are initial solutions the employee could consider:",
+            "buttons": [
+                {
+                    "payload": "RAISE_INFORMAL_ISSUE",
+                    "title": "Raise the Issue Informally"
+                },
+                {
+                    "payload": "DOCUMENT_INCIDENTS",
+                    "title": "Document Incidents of Harassment and Exclusion"
+                },
+                {
+                    "payload": "SUBMIT_GRIEVANCE",
+                    "title": "Submit a Formal Grievance"
+                },
+                {
+                    "payload": "REQUEST_TRAINING",
+                    "title": "Request Anti-Discrimination Training"
+                },
+                {
+                    "payload": "REVIEW_POLICIES",
+                    "title": "Review the Company's Equal Opportunity and Anti-Discrimination Policies"
+                },
+                {
+                    "payload": "SEEK_SUPPORT",
+                    "title": "Seek Support from a Trade Union or External Organizations"
+                },
+                {
+                    "payload": "ACAS_CONCILIATION",
+                    "title": "ACAS Early Conciliation"
+                },
+                {
+                    "payload": "EMPLOYMENT_TRIBUNAL",
+                    "title": "Employment Tribunal"
+                },
+                {
+                    "payload": "REVIEW_PRACTICES",
+                    "title": "Propose a Review of Client Meeting Practices"
+                },
+                {
+                    "payload": "REPORT_EXTERNAL",
+                    "title": "Consider Reporting to an External Regulatory Body"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RAISE_INFORMAL_ISSUE": [
+        {
+            "text": "The employee could first try to resolve the situation informally by speaking with their line manager or HR department. The employee should clearly explain that the \"jokes\" about terrorism are offensive and discriminatory and that being excluded from meetings based on race or nationality is unacceptable under the Equality Act 2010. This informal discussion gives the employer an opportunity to address the behavior without formal escalation.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DOCUMENT_INCIDENTS": [
+        {
+            "text": "It is important for the employee to keep a record of any incidents of harassment, including dates, times, and the names of the individuals involved. Similarly, the employee should document instances where they were excluded from meetings or work opportunities due to discriminatory reasons. This documentation can be helpful for future grievance processes or legal actions.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SUBMIT_GRIEVANCE": [
+        {
+            "text": "If the informal approach does not resolve the issue, the employee can file a formal grievance with HR. The grievance should detail:"
+        },
+        {
+            "text": "Specific incidents of racial harassment (e.g., \"jokes\" about terrorism)."
+        },
+        {
+            "text": "Instances where they were excluded from client meetings due to race, nationality, or ethnicity."
+        },
+        {
+            "text": "The negative impact this has had on their work environment and professional opportunities."
+        },
+        {
+            "text": "Reference the Equality Act 2010 protections against race discrimination and harassment."
+        },
+        {
+            "text": "The employer will be required to investigate the grievance and take appropriate action, which could include disciplining those responsible for the harassment or changing the company's practices regarding client meetings.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "REQUEST_TRAINING": [
+        {
+            "text": "The employee could request that the company implement or update anti-discrimination training, particularly focusing on issues of racial sensitivity and workplace harassment. This could help raise awareness among employees about the legal and moral obligations to treat colleagues respectfully and could help prevent future incidents.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "REVIEW_POLICIES": [
+        {
+            "text": "The employee should review the company's existing equal opportunity and anti-discrimination policies to determine if they are compliant with the Equality Act 2010. If these policies are inadequate or not enforced properly, the employee could ask HR to revise and strengthen them to better protect against racial harassment and discrimination.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SEEK_SUPPORT": [
+        {
+            "text": "If the employee is a member of a trade union, they can seek advice and support from their union representative. Trade unions can assist with filing grievances, negotiating with management, and offering representation in meetings. Additionally, the employee could consult external organizations, such as ACAS or Equality and Human Rights Commission (EHRC), which offer advice on how to handle race discrimination and harassment at work.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ACAS_CONCILIATION": [
+        {
+            "text": "If the employer fails to address the issue through the grievance process, the employee can initiate Early Conciliation through ACAS. This service offers a chance to settle disputes between employees and employers before escalating to legal action. Both sides are encouraged to resolve the issue amicably through mediation.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "EMPLOYMENT_TRIBUNAL": [
+        {
+            "text": "If the issue remains unresolved after Early Conciliation, the employee can file a claim with the Employment Tribunal for racial harassment and discrimination under the Equality Act 2010. The claim must usually be submitted within three months less one day from the date of the discriminatory act. The tribunal can assess whether the employer has taken appropriate steps to prevent racial harassment and whether the exclusion from client meetings was discriminatory.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "REVIEW_PRACTICES": [
+        {
+            "text": "If the company excluded the employee from client meetings due to assumptions about their race, they could request a review of the company's decision-making process for client-facing activities. The employer must ensure that such decisions are based on merit and work-related factors, not on stereotypes or assumptions related to race or nationality. Excluding someone from meetings based on the fear of \"raising security concerns\" due to their race is discriminatory and could lead to legal consequences.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "REPORT_EXTERNAL": [
+        {
+            "text": "If the employer's actions are particularly egregious or if the company does not address the issue internally, the employee may report the matter to an external body, such as the Equality and Human Rights Commission (EHRC), which can investigate and take action against employers who fail to comply with anti-discrimination laws.",
+            "buttons": [
+                {
+                    "payload": "RACISM_SOLUTIONS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                },
+                {
+                    "payload": "CONNECT_GURU",
+                    "title": "Connect with a Guru"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
     "SOCIAL_MOBILITY": [],
     "MONEY_PAY": [],
     "CONNECT_GURU": {
         "text": "Brownstone EDI Guru coming soon....",
         "buttons": [
             {
-                "payload": "PROTECTION_CHARACTERSITICS",
+                "payload": "PROTECTED_CHARACTERSITICS",
                 "title": "Back to Previous Menu"
             },
             {
